@@ -1,0 +1,88 @@
+﻿VS filter: testpath:TestAssembly:SpecFlowTestProject/Feature:Contact+Us+Page/Scenario:Valid+Submission
+Discovering target: Default
+Discovering tests from assembly: c:\users\ukcpa01\documents\visual studio 2015\Projects\SpecFlowTestProject\SpecFlowTestProject\bin\Debug\SpecFlowTestProject.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecFlowTestProject/Default - 
+#1: Default - 
+#2: SpecFlowTestProject - 
+#3: Contact Us Page - 
+#4: Valid Submission - TestAssembly:SpecFlowTestProject/Feature:Contact+Us+Page/Scenario:Valid+Submission
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecFlowTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\ukcpa01\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I am on the QAWorks Contact Us Page
+Thread#0:T:done: ContactUsPageSteps.GivenIAmOnTheQAWorksSite() (0.9s)
+Thread#0:B:And I enter the username "j.Bloggs"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterTheUsername("j.Bloggs") (0.4s)
+Thread#0:B:And I enter the email "j.Bloggs@qaworks.com"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterTheEmail("j.Bloggs@qaworks.com") (0.5s)
+Thread#0:B:And I enter a message "Please contact me I want to find out more"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterAMessage("Please contact me...") (0.6s)
+Thread#0:B:When I click the send button
+Thread#0:T:done: ContactUsPageSteps.WhenIPressTheSendButton() (0.2s)
+Thread#0:B:Then I should be able to contact QAWorks successfully
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 5.9689979 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I am on the QAWorks Contact Us Page
+Thread#0:T:done: ContactUsPageSteps.GivenIAmOnTheQAWorksSite() (1.0s)
+Thread#0:B:And I enter the username "j.Bloggs"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterTheUsername("j.Bloggs") (0.4s)
+Thread#0:B:And I enter the email "j.Bloggs@qaworks.com"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterTheEmail("j.Bloggs@qaworks.com") (0.5s)
+Thread#0:B:And I enter a message "Please contact me I want to find out more"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterAMessage("Please contact me...") (0.6s)
+Thread#0:B:When I click the send button
+Thread#0:T:done: ContactUsPageSteps.WhenIPressTheSendButton() (0.2s)
+Thread#0:B:Then I should be able to contact QAWorks successfully
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 5.8770005 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I am on the QAWorks Contact Us Page
+Thread#0:T:done: ContactUsPageSteps.GivenIAmOnTheQAWorksSite() (1.0s)
+Thread#0:B:And I enter the username "j.Bloggs"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterTheUsername("j.Bloggs") (0.4s)
+Thread#0:B:And I enter the email "j.Bloggs@qaworks.com"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterTheEmail("j.Bloggs@qaworks.com") (0.5s)
+Thread#0:B:And I enter a message "Please contact me I want to find out more"
+Thread#0:T:done: ContactUsPageSteps.GivenIEnterAMessage("Please contact me...") (0.6s)
+Thread#0:B:When I click the send button
+Thread#0:T:done: ContactUsPageSteps.WhenIPressTheSendButton() (0.2s)
+Thread#0:B:Then I should be able to contact QAWorks successfully
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 5.5530016 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
